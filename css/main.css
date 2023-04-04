@@ -18,6 +18,11 @@ h2 ~ p {
 }
 
 /* ヘッダースタイル */
+.header {
+  background-color: #aaa;
+  height: 400px;
+  width: 100%;
+}
 .header-nav {
   float: right;
   padding: 5.5vh 60px 0 0;
@@ -46,6 +51,10 @@ h2 ~ p {
 .header-nav a:hover,
 .header-nav a:active {
   color: #ed6e2f;
+}
+.header-logo {
+  position: absolute;
+  bottom: 50px;
 }
 .header-logo:hover,
 .header-logo:active {
