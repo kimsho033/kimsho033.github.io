@@ -28,14 +28,13 @@ h2 ~ p {
   position: fixed;
   width: 100%;
   z-index: 20;
-  left: 0;
-  top: 0;
 }
 .header-logo {
   background-color: #000;
   box-sizing: border-box;
   display: block;
   height: 10vh;
+  left: -30px;
   padding-top: 10px;
   position: relative;
   text-align: center;
@@ -62,13 +61,15 @@ h2 ~ p {
 }
 .header-nav a {
   color: #fff;
+}
+.nav-links a {
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
 }
-.header-nav a:hover,
-.header-nav a:active {
+.nav-links a:hover,
+.nav-links a:active  {
   color: #ed6e2f;
 }
 .header-nav > li:first-child a {
@@ -78,20 +79,39 @@ h2 ~ p {
   color: #fff;
 }
 
+/* フッタースタイル */
+.footer {
+  background-color: #000;
+  padding: 10vh 0 15vh;
+  text-align: center;
+}
+.footer-logo img {
+  width: 50px;
+}
+.footer h3 {
+  color: #fff;
+  padding-top: 1.5em;
+  text-transform: uppercase;
+}
+.footer h3 span {
+  color: #aaa;
+}
+.footer-nav li {
+  display: inline-block;
+  margin: 2em 1em 0;
+}
+.footer-nav a {
+  color: #ccc;
+}
+
 /* ヒーロースタイル */
 .full-hero {
   background-color: #c7dbfc;
   height: 50vh;
-  position: relative;
-}
-.full-hero ul {
-  position: absolute;
-  left: 0;
-  bottom: 0;
 }
 
 /* SNSスタイル */
-.social-link {
+.hero-links a {
   background: rgba(150, 150, 150, 0.5);
   border-radius: 99px;
   box-sizing: border-box;
